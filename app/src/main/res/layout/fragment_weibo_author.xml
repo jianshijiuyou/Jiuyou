@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <info.jiuyou.wang.widget.RatioFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/weibo_author_header_background"
+        android:theme="?actionBarTheme"
+        app:ratio="16:9">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/weibo_author_title_height"
+            android:layout_gravity="bottom"
+            android:background="@color/weibo_author_title_background">
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/weibo_author_title_marginLeft"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/weibo_author_title_size"
+                android:text="@string/weibo_author_title"
+                android:layout_gravity="center_vertical"
+                android:textColor="@android:color/white"
+                />
+        </FrameLayout>
+    </info.jiuyou.wang.widget.RatioFrameLayout>
+    <Button
+        android:id="@+id/btnAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weibo_author_login_text" />
+</LinearLayout>

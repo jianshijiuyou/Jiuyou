@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">wang</string>
+    <string name="viewholder_base_load_text">正在加载...</string>
+</resources>

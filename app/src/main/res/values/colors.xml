@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="weibo_author_header_background">#26D7F7</color>
+    <color name="weibo_author_title_background">#22CBE9</color>
+    <color name="weibo_status_user_name">#EA9720</color>
+    <color name="theme_text">#555</color>
+    <color name="theme_setting_item_bg">#fff</color>
+    <color name="theme_main_bg">#efefef</color>
+</resources>
